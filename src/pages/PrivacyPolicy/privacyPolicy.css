@@ -1,0 +1,73 @@
+.PrivacyPolicy {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 75px;
+  margin-bottom: 70px;
+  border: 1px solid transparent;
+}
+
+.PrivacyPolicy .banner {
+  border: 1px solid red;
+  display: none;
+}
+
+.PrivacyPolicy .banner img {
+  width: 100%;
+}
+
+.PrivacyPolicy .title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #3b454e;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .PrivacyPolicy .title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+
+.PrivacyPolicy .subTitle {
+  margin-bottom: 30px;
+  line-height: 24px;
+  font-size: 16px;
+  color: #3b454e;
+  font-weight: 400;
+}
+
+.PrivacyPolicy .pPContent div .title {
+  font-size: 24px;
+  text-align: left;
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .PrivacyPolicy .pPContent div .title {
+    font-size: 16px;
+  }
+}
+
+.PrivacyPolicy .pPContent div .contt p {
+  line-height: 24px;
+  font-size: 16px;
+  color: #3b454e;
+  font-weight: 400;
+}
+
+.PrivacyPolicy .pPContent div .contt ul li {
+  list-style-type: decimal;
+}
+
+.PrivacyPolicy .pPContent div .contt .LJhgvn {
+  list-style-type: initial;
+}
+
+.PrivacyPolicy .pPContent div .contt .LJhgvn .list-Hmn .title {
+  font-size: 16px;
+}
+/*# sourceMappingURL=privacyPolicy.css.map */

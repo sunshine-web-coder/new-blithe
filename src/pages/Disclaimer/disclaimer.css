@@ -1,0 +1,78 @@
+.Disclaimer {
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 70px;
+  padding-left: 16px;
+  padding: 4rem 16px;
+}
+
+.Disclaimer .banner {
+  border: 1px solid red;
+  display: none;
+}
+
+.Disclaimer .banner img {
+  width: 100%;
+}
+
+.Disclaimer .title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #3b454e;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .Disclaimer .title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+
+.Disclaimer .subTitle {
+  margin-bottom: 30px;
+  line-height: 24px;
+  font-size: 16px;
+  color: #3b454e;
+  font-weight: 400;
+}
+
+.Disclaimer .pPContent div .title {
+  font-size: 24px;
+  text-align: left;
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .Disclaimer .pPContent div .title {
+    font-size: 16px;
+  }
+}
+
+.Disclaimer .pPContent div .contt p {
+  line-height: 24px;
+  font-size: 16px;
+  color: #3b454e;
+  font-weight: 400;
+}
+
+.Disclaimer .pPContent div .contt ul li {
+  list-style-type: decimal;
+  margin-bottom: 5px;
+}
+
+.Disclaimer .pPContent div .contt ul li p {
+  margin-top: 10px;
+}
+
+.Disclaimer .pPContent div .contt .LJhgvn {
+  list-style-type: upper-roman;
+}
+
+.Disclaimer .pPContent div .contt .LJhgvn .list-Hmn .title {
+  font-size: 16px;
+}
+/*# sourceMappingURL=disclaimer.css.map */

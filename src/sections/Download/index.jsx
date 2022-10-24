@@ -16,7 +16,9 @@ const Download = () => {
                                     <div className="download__content text-center text-lg-start">
                                         <h3 className='fw-bold fs-lg-4xl fs-xl-6xl mb-4'>Begin your crypto journey on Blithe</h3>
                                         <p className='mb-4 fs-xxl-2xl'>Manage, store, and transfer your digital assets exclusively on Blithe Wallet. Connect to DeFi unimaginable possibilities, including DEX, NFTs, NFC & onramp, staking, liquidity, and more all from a single platform.</p>
-                                        <button className="btn btn-warning">Download Blithe</button>
+                                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.blithe.wallet.blithewallet">
+                                           <button className="btn dnndBtn btn-warning">Download Blithe</button> 
+                                        </a>
                                         <img className='download__content-shape img-fluid' src={shape}alt="" />
                                     </div>
                                 </div>

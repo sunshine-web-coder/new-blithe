@@ -84,7 +84,7 @@ const Roadmap = () => {
             <div className="row g-0 ">
                 <div className="col-md offset-md-6">
                     <div className="roadmap__item pb-6">
-                        <h4 className="roadmap__item-title fs-xl fs-sm-3xl fw-bold text-dark"><div>Q4 2022</div>
+                        <h4 className="roadmap__item-title fs-xl fs-sm-3xl fw-bold text-dark"><div>Q2 2023</div>
                             <motion.div className="roadmap__item-title-line" 
                                 variants={{ 
                                     roadmapOffscreen: { 
@@ -97,12 +97,12 @@ const Roadmap = () => {
                                 </motion.div>
                         </h4>
                         <div className="roadmap__item-content">
-                            <ul className="list-unstyled mb-0 fs-sm fs-sm-lg lh-lg">
-                                <li>• Cross-chain swap/exchange</li>
-                                <li>• Listing on CEX</li>
-                                <li>• Massive marketing</li>
-                                <li>• Catex staking partnership</li>
-                                <li>• Fiat pool exchange</li>
+                            <ul className="list-unstyled djj8jList mb-0 fs-sm fs-sm-lg lh-lg">
+                                <li>• <span>Lending and borrowing</span></li>
+                                <li>• <span>Desktop app launch for macOS, Windows and Linux</span></li>
+                                <li>• <span>MoonPay Partnership to allow crypto purchases using credit/debit card</span></li>
+                                <li>• <span>API Integeration & SDK</span></li>
+                                <li>• <span>Blithe Mastercard and Visa card</span></li>
                             </ul>
                         </div>
                     </div>

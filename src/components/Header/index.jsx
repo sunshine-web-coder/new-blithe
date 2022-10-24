@@ -55,16 +55,18 @@ const Header = () => {
                 slug: '#Staking',
             },
             {
-                name: "Documentationm",
-                slug: '#Documentationm',
+                name: "Documentation",
+                slug: 'https://blithe.gitbook.io/blithe-wallet-whitepaper',
             },
             {
                 name: "NFTs",
                 slug: '#NFTs',
+                soonText: "Soon"
             },
             {
                 name: "DApp Browser",
                 slug: '#DAppBrowser',
+                soonText: "Soon"
             },
         ]
     }
@@ -82,12 +84,12 @@ const Header = () => {
                 {data && data.navmenu &&
                 <Nav className="me-auto">
                     {data.navmenu.map((item, i) =>(
-                        <Nav.Link key={i} href={item.slug}>{item.name}</Nav.Link>
+                        <Nav.Link key={i} href={item.slug}>{item.name} <span>{item.soonText}</span></Nav.Link>
                     ))}
                 </Nav>
                 }
             <Nav>
-                <Nav.Link className='p-0 d-block' href="/"><span className='btn btn-warning'>Join Us</span></Nav.Link>
+                <Nav.Link className='p-0 d-block' target="_blank" href="https://t.me/blithewallet"><span className='btn btn-warning'>Join Us</span></Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Container>
@@ -101,9 +103,11 @@ const Header = () => {
             {data && data.navmenu &&
             <ul className="list-unstyled">
                 {data.navmenu.map((item, i) =>(
-                    <li key={i}><Link to={item.slug} className="text-muted fs-sm">{item.name}</Link></li>
+                    <li key={i}><a href={item.slug} className="text-muted fs-sm">{item.name} <span className='I78yn'>{item.soonText}</span></a></li>
                 ))}
-                <span className='btn btn-warning rounded-pill w-100'>Get Started</span>
+                <a target="_blank" href="https://t.me/blithewallet">
+                    <span className='btn btn-warning rounded-pill w-100'>Join Us</span>
+                </a>
             </ul>
             }
         </motion.div>

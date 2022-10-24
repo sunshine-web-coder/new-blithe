@@ -13,8 +13,14 @@ const Hero = () => {
     const data = {
         
         action: [
-            { thumb: playStore,},
-            { thumb: androidStore},
+            { 
+                thumb: playStore,
+                path: "https://play.google.com/store/apps/details?id=com.blithe.wallet.blithewallet"
+            },
+            { 
+                thumb: androidStore, 
+                path: "../../../../BlitheWallet.apk"
+            },
             { thumb: appStore, badge: true},
         ]
     }
@@ -188,7 +194,7 @@ const Hero = () => {
                                 }
                             }}
                             >
-                                <Link href="#"><img className='img-fluid' src={item.thumb} alt="Apple "/></Link>
+                                <a target="_blank" className="jHUGg" href={item.path}><img className='img-fluid' src={item.thumb} alt="Apple "/></a>
                                 {item.badge && <span style={{ marginRight: 1, marginBottom: 1, }} className="position-absolute bottom-0 end-0 badge bg-primary bg-opacity-25 fs-xs fw-regular rounded-pill text-primary px-2">Coming soon</span>}
                             </motion.li>
                             )}

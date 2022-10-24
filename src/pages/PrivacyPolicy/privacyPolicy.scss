@@ -1,0 +1,85 @@
+.PrivacyPolicy {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 70px;
+    border: 1px solid transparent;
+    ;
+
+    .banner {
+        border: 1px solid red;
+        display: none;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .title {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 56px;
+        color: rgba(59, 69, 78, 1.00);
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+
+        @media screen and (max-width: 600px) {
+            font-size: 30px;
+            line-height: 36px;
+        }
+    }
+
+    .subTitle {
+        margin-bottom: 30px;
+        line-height: 24px;
+        font-size: 16px;
+        color: rgba(59, 69, 78, 1.00);
+        font-weight: 400;
+    }
+
+    .pPContent {
+
+        div {
+
+            .title {
+
+                font-size: 24px;
+                text-align: left;
+                margin: 0;
+
+                @media screen and (max-width: 600px) {
+                    font-size: 16px;
+                }
+            }
+
+            .contt {
+
+                p {
+                    line-height: 24px;
+                    font-size: 16px;
+                    color: rgba(59, 69, 78, 1.00);
+                    font-weight: 400;
+                }
+
+                ul {
+                    li {
+                        list-style-type: decimal;
+                    }
+                }
+
+                .LJhgvn {
+                    list-style-type: initial;
+
+                    .list-Hmn {
+
+                        .title {
+                            font-size: 16px;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
