@@ -1,0 +1,86 @@
+.roadmap{
+
+    &__item{
+        padding: 0rem var(--roadmap-padding-x, 3rem);
+        position: relative;
+
+        @media(max-width: 767px){
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+            --roadmap-padding-x: 1.5rem
+        }
+
+        &::before{
+            content: "";
+            width: 6px;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-color: $primary;
+        }
+
+        &.left{
+            @media(min-width: 768px){
+                --roadmap-line-deg: -90deg;
+                &::before{
+                    left: auto;
+                    right: -6px;
+                }
+            }
+        }
+        &.left .roadmap__item-title{
+            @media(min-width: 768px){
+                &::before{
+                    left: auto;
+                    right: -5rem;
+                }
+                &-line{
+                    left: auto;
+                    right: -3.2rem;
+                }
+            }
+        }
+
+        &-title{
+            position: relative;
+            z-index: 1;
+
+            &::before{
+                content: "";
+                width: var(--circle-size, 56px);
+                height: var(--circle-size, 56px);
+                position: absolute;
+                display: block;
+                left: -4.5rem;
+                bottom: 0.5rem;
+                z-index: 2;
+                background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTciIGhlaWdodD0iNTciIHZpZXdCb3g9IjAgMCA1NyA1NyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSByPSIyOCIgdHJhbnNmb3JtPSJtYXRyaXgoLTEgMCAwIDEgMjguMTMxNyAyOC41Nzc0KSIgZmlsbD0id2hpdGUiLz4KPGNpcmNsZSByPSIxNi4wNDU4IiB0cmFuc2Zvcm09Im1hdHJpeCgtMSAwIDAgMSAyOC4xMzE3IDI4LjU3NzEpIiBmaWxsPSIjRkY5RjAwIi8+Cjwvc3ZnPgo=");
+                background-repeat: no-repeat;
+                background-size: contain;
+                
+                @media(max-width: 767px){
+                    --circle-size: 30px;
+                    left: -2.15rem;
+                    bottom: 1.25rem;
+                }
+            }
+            &-line{
+                width: 100%;
+                height: 5px;
+                position: relative;
+                display: inline-block;
+                background-color: $primary;
+                margin-top: 1.5rem;
+                margin-bottom: 1.5rem;
+                margin-left: -3rem;
+                background: linear-gradient(var(--roadmap-line-deg, 90deg), #6B29FF 0%, transparent 100%);
+
+                @media(max-width: 767px){
+                    margin-left: -1.5rem;
+                }
+
+            }
+        }
+    }
+}

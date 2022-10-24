@@ -1,0 +1,128 @@
+$navbar-brand-padding-y: 0;
+
+.header{    
+    position: fixed;
+    top: 0; left: 0;
+    right: 0;
+    z-index: 9999;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+
+    &:before{
+        content: "";
+        width: 100%;
+        height: 0%;
+        background: $white;
+        position: absolute;
+        left: 0;
+        top: 0;
+        transition: all 0.2s ease-in-out;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -ms-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        z-index: -1;
+    }
+
+    &.is-sticky{
+        box-shadow: $box-shadow;
+        padding-top: 0;
+
+        &::before{
+            height: 100%;
+        }
+    }
+
+    @media (min-width: 1200px){
+        padding-top: 20px;
+    }
+
+    @media (max-width: 1199px){
+        &__mobile-open::before{
+                height: 100%;
+        }
+    }
+
+
+
+    &__progress{            
+        position: fixed;
+        top: 0; left: 0; right: 0; 
+        height: 3px;
+        background: $primary;
+        transform-origin: 0%;
+    }
+
+
+    @media(max-width: 991px){
+        .navbar{
+            height: 70px;
+        }
+
+        &-toggler{
+            span{
+                display: block;
+                width: 1.4rem;
+                height: 2px;
+                background-color: $gray-900;
+                -webkit-transition: 0.3s;
+                -o-transition: 0.3s;
+                transition: 0.3s;
+                position: relative;
+
+                &:before, &:after {
+                    display: block;
+                    width: 1.4rem;
+                    height: 3px;
+                    background: #ecf0f1;
+                    -webkit-transition: 0.3s;
+                    -o-transition: 0.3s;
+                    transition: 0.3s;
+                    position: absolute;
+                    left: 0;
+                    content: '';
+                    -webkit-transform-origin: 0.142rem center;
+                    -ms-transform-origin: 0.142rem center;
+                        transform-origin: 0.142rem center;
+                }
+                &:after {
+                    -webkit-transition: background-color 0.2s ease,opacity 0.2s ease, -webkit-transform 0.65s cubic-bezier(0.3, 1, 0.3, 1) 0.08s!important;
+                    transition: background-color 0.2s ease,opacity 0.2s ease, -webkit-transform 0.65s cubic-bezier(0.3, 1, 0.3, 1) 0.08s!important;
+                    -o-transition: transform 0.65s cubic-bezier(0.3, 1, 0.3, 1) 0.08s, background-color 0.2s ease,opacity 0.2s ease!important;
+                    transition: transform 0.65s cubic-bezier(0.3, 1, 0.3, 1) 0.08s, background-color 0.2s ease,opacity 0.2s ease!important;
+                    transition: transform 0.65s cubic-bezier(0.3, 1, 0.3, 1) 0.08s, background-color 0.2s ease,opacity 0.2s ease, -webkit-transform 0.65s cubic-bezier(0.3, 1, 0.3, 1) 0.08s!important;
+                    height: 2px;
+                    background-color: #000;
+                }
+            }
+        }
+        &-mobile{
+            position: fixed;
+            top: 70px;
+            padding: 20px;
+            left: 0;
+            right: 0;
+            height: 100vh;
+            background: rgba(108, 43, 251, 0.1);
+            -webkit-box-shadow: 0px 4px 24px -1px rgba(21, 24, 32, 0.2);
+                    box-shadow: 0px 4px 24px -1px rgba(21, 24, 32, 0.2);
+            -webkit-backdrop-filter: blur(20px);
+                    backdrop-filter: blur(20px);
+            z-index: 999;
+
+            ul{
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
+                row-gap: 15px;
+            }
+        }
+    }
+}

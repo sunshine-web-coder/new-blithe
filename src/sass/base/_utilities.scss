@@ -1,0 +1,109 @@
+.download__card{
+    color: $white;
+    background: linear-gradient(-93.15deg, #FF9F00 0%, #6B29FF 99.46%);
+    border-radius: 40px !important;
+    -webkit-border-radius: 40px !important;
+    -moz-border-radius: 40px !important;
+    -ms-border-radius: 40px !important;
+    -o-border-radius: 40px !important;
+}
+.download__thumb-cover{
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    text-align: center;
+
+        &:before{
+            position: absolute;
+            content: "";
+            display: inline-block;
+            width: 341px;
+            height: 341px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            background: rgba(255, 255, 255, 0.15);
+            z-index: -1;
+            border-radius: 50rem;
+            -webkit-border-radius: 50rem;
+            -moz-border-radius: 50rem;
+            -ms-border-radius: 50rem;
+            -o-border-radius: 50rem;
+    }
+}
+
+.download__man{
+    @media (min-width: 992px){
+        position: absolute;
+        bottom: -5rem;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+    @media (max-width: 991px){
+        position: relative;
+        margin-bottom: -2.5rem;
+    }
+}
+
+.download__content{
+    position: relative;
+
+    &-shape{
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+}
+
+
+
+
+
+.payment-banner-cover{
+    width: var(--payment-baner-cover-size, 555px);
+    height: var(--payment-baner-cover-size, 555px);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 100%;
+    backdrop-filter: blur(100px);
+    border-radius: 50rem;
+    -webkit-border-radius: 50rem;
+    -moz-border-radius: 50rem;
+    -ms-border-radius: 50rem;
+    -o-border-radius: 50rem;
+    z-index: 1;
+
+    @media (max-width: 991px){
+        --payment-baner-cover-size: 75vw;
+    }
+
+    &::before{
+        content: "";
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #6B29FF 0%, #FF9F00 100%);
+        opacity: 0.5;
+        border-radius: 50rem;
+        -webkit-border-radius: 50rem;
+        -moz-border-radius: 50rem;
+        -ms-border-radius: 50rem;
+        -o-border-radius: 50rem;
+    }   
+}

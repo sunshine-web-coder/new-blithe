@@ -1,0 +1,10 @@
+// Customize Buttons
+$btn-font-size: $fs-lg;
+$btn-padding-y: 0.5rem;
+$btn-padding-x: 1rem;
+$btn-transition: all 300ms linear;
+
+
+.btn.outline{
+    --bs-btn-box-shadow: var(--bs-btn-focus-box-shadow);    
+}

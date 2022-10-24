@@ -1,0 +1,6 @@
+$dropdown-font-size: $fs-md;
+$dropdown-item-padding-y: 0.5rem;
+
+$dropdown-border-color: $gray-100;
+
+.no-toggle:after{content: unset !important;}

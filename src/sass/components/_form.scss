@@ -1,0 +1,30 @@
+$input-padding-y: .5rem;
+$input-padding-x: 1.25rem;
+$input-bg: $gray-100;
+$input-font-size: $fs-md;
+$input-font-weight: 400;
+$input-line-height: 1;
+$input-border-color: $gray-200;
+// $input-box-shadow: none;
+
+// Form Label
+$form-label-font-weight: 600;
+$form-label-font-size: $fs-md;
+
+
+.input-icon{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: var(--icon-size, 37px);
+    height: var(--icon-size, 37px);
+    -webkit-box-shadow: 0px 0px 20px 2px rgba($black, 0.05);
+            box-shadow: 0px 0px 20px 2px rgba($black, 0.05);
+    margin-left: 2px;
+}
