@@ -47,8 +47,8 @@ const Header = () => {
     const data = {
         navmenu: [
             {
-                name: "Assets",
-                slug: '#assets',
+                name: "Add assets",
+                slug: '/form',
             },
             {
                 name: "Staking",
