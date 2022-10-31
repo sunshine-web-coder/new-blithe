@@ -4,7 +4,7 @@ import ImmutaleX  from './assets/ImmutableX.svg';
 import Compound  from './assets/Compound.svg';
 import Bitcoin  from './assets/Bitcoin.svg';
 import BinanceSmartChain  from './assets/BinanceSmartChain.svg';
-import Decentraland  from './assets/Decentraland.svg';
+// import Decentraland  from './assets/Decentraland.svg';
 import Ethereum  from './assets/Ethereum.svg';
 import Celo  from './assets/Celo.svg';
 import Cardano  from './assets/Cardano.svg';
@@ -32,7 +32,7 @@ const Integration = () => {
             { icon: Compound, },
             { icon: Bitcoin, },
             { icon: BinanceSmartChain, },
-            { icon: Decentraland, },
+            // { icon: Decentraland, },
             { icon: Ethereum, },
             { icon: Celo, },
             { icon: Cardano, },

@@ -10,7 +10,7 @@ const Payment = () => {
             <h2 className="fs-3xl fs-lg-4xl fs-xl-6xl fw-bold ls-xxs text-dark mb-3 mb-lg-4">NFC Payment Exclusively on Blithe</h2>
             <h6 className='fs-xl text-dark mb-4'>Blithe NFC Payment—the first of the best</h6>
               <p>Blithe presents near-field communication technology for contactless crypto & fiat payment services tailored for your business and individual use. Blithe NFC cuts across point of sale (POS) services and fiat/crypto onramps—accessible exclusively on Blithe Wallet.</p>
-              <a href="#" className="btn btn-primary px-4">Learn More</a>
+              <a target="_blank" href="https://medium.com/@blithewallet/blithe-wallet-all-you-need-to-know-about-the-first-non-custodial-wallet-to-offer-borderless-nfc-7389f0765cfc" className="btn btn-primary px-4">Learn More</a>
           </div>
           <div className="col-lg-6 col-xl-5 text-center">
               <div className="payment-banner-cover">
