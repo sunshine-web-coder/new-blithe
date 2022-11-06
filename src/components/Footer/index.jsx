@@ -57,11 +57,11 @@ const Footer = () => {
         icon: socialTelegram,
         path: "https://t.me/blithewallet",
       },
-      {
-        name: "Discord",
-        icon: socialDiscord,
-        path: "https://discord.gg/RFcu94Nu",
-      },
+      // {
+      //   name: "Discord",
+      //   icon: socialDiscord,
+      //   path: "https://discord.gg/RFcu94Nu",
+      // },
       {
         name: "Youtube",
         icon: socialYoutube,
