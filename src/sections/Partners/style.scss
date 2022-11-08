@@ -1,0 +1,34 @@
+.partners {
+    background-color: rgba(228, 228, 228, 0.267);
+
+    .inPartners {
+        max-width: 1100px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding: 20px;
+
+        img {
+            max-width: 70px;
+            height: 100%;
+
+            @media screen and (max-width: 500px) {
+                max-width: 50px;
+            }
+
+            &.amazonLogo {
+                max-width: 150px;
+                height: 100%;
+
+                @media screen and (max-width: 500px) {
+                    max-width: 100px;
+                }
+            }
+        }
+    }
+}

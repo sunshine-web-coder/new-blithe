@@ -155,7 +155,7 @@ const Footer = () => {
           )}
           <Col>
             <div className="fw-regular">
-              © 2022 Blithe Inc. All rights reserved.
+              © 2022 Blithe Inc (USA). All rights reserved.
             </div>
           </Col>
         </Row>
