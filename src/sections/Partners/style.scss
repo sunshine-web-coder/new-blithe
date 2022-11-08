@@ -2,31 +2,54 @@
     background-color: rgba(228, 228, 228, 0.267);
 
     .inPartners {
-        max-width: 1100px;
+        max-width: 100%;
+        height: 95px;
         margin: auto;
         display: flex;
-        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        gap: 30px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding: 20px;
+        gap: 50px;
+        padding: 0 24px;
+        text-align: center;
+
+        @media screen and (max-width: 600px) {
+            gap: 10px;
+        }
 
         img {
-            max-width: 70px;
-            height: 100%;
+
+            // @media screen and (max-width: 600px) {
+            //     max-width: 300px;
+            // }
+
+            max-width: 50px;
+            margin-right: 25px;
+            margin-left: 25px;
+
+            &:first-child{
+                margin-left: 0px;
+            }
+
+            @media screen and (max-width: 600px) {
+                margin-right: 20px;
+                max-width: 40px;
+            }
 
             @media screen and (max-width: 500px) {
-                max-width: 50px;
+                margin-right: 10px;
+                margin-left: 10px;
+                max-width: 30px;
             }
 
             &.amazonLogo {
-                max-width: 150px;
-                height: 100%;
+                max-width: 100px;
+
+                @media screen and (max-width: 600px) {
+                    max-width: 80px;
+                }
 
                 @media screen and (max-width: 500px) {
-                    max-width: 100px;
+                    max-width: 70px;
                 }
             }
         }

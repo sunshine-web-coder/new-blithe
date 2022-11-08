@@ -1,5 +1,5 @@
-import { useState } from "react";
 import "./style.scss";
+
 const partners = [
   {
     img: "https://iili.io/p4rJEP.md.png",
@@ -16,15 +16,20 @@ const partners = [
   },
 ];
 const Partners = () => {
-//   const [data, setData] = useState(partners);
   return (
     <div className="partners">
       <div className="inPartners">
         {partners.map((item, i) => (
           <>
-            <img src={item.img} alt="" key={i} className={`${item.amazon ? "amazonLogo" : ""}`} />
+            <img
+              src={item.img}
+              alt=""
+              key={i}
+              className={`${item.amazon ? "amazonLogo" : ""}`}
+            />
           </>
         ))}
+        {/* <img src="https://iili.io/pi020N.md.png" alt="" /> */}
       </div>
     </div>
   );
