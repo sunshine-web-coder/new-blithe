@@ -50,7 +50,7 @@ const Footer = () => {
       {
         name: "Twitter",
         icon: socialTwitter,
-        path: "https://twitter.com/BlitheWallet?t=SLPAHTN62XbHX5CWSjk8BQ&s=09",
+        path: "https://twitter.com/BlithewalletInc?t=bC9mv7HtwP9nNi0AUBQx3Q&s=09",
       },
       {
         name: "Telegram",

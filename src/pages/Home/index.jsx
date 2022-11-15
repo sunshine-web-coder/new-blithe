@@ -7,6 +7,7 @@ import Features from '../../sections/Features';
 import Roadmap from '../../sections/Roadmap';
 import Payment from '../../sections/payment';
 import Partners from '../../sections/Partners';
+// import Team from '../../sections/Team';
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Integration />
       <Payment />
       <Roadmap />
+      {/* <Team /> */}
     </PrimaryLayout>
   )
 }
