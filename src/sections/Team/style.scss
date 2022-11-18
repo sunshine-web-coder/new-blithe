@@ -76,5 +76,14 @@
                 }
             }
         }
+
+        @media screen and (max-width: 767px){
+            padding-top: 30px;
+            padding-bottom: 0px;
+
+            .TeamBox{
+                margin-top: 40px;
+            }
+        }
     }
 }

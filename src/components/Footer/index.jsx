@@ -80,7 +80,7 @@ const Footer = () => {
     ],
   };
   return (
-    <footer className="footer position-relative pt-6 pb-5">
+    <footer className="footer position-relative pt-3 pb-5">
       <img src={bg} className="footer__shape img-fluid" alt="Footer BG" />
       <Container>
         <Row className="mb-5 gy-4 justify-content-center">

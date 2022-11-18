@@ -52,7 +52,7 @@ const Header = () => {
             },
             {
                 name: "Staking",
-                slug: '#Staking',
+                slug: 'https://t.me/catex_group/322284',
             },
             {
                 name: "Documentation",

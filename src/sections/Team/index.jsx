@@ -16,7 +16,6 @@ const Team = () => {
             <p>David Friedmann. CEO/COO</p>
             <div className="buttonF">
                 <a target="_blank" href="https://youtu.be/oCPBJwip8Aw">Doxx</a>
-                {/* <a target="_blank" href="/">Contact</a> */}
             </div>
           </div>
           <div className="coTeamBox">
@@ -25,8 +24,7 @@ const Team = () => {
             </div>
             <p>Sami. CMO</p>
             <div className="buttonF">
-                {/* <a target="_blank" href="/">Doxx</a> */}
-                <a target="_blank" href="/">Contact</a>
+                <a target="_blank" href="https://t.me/Sami_crypto">Contact</a>
             </div>
           </div>
         </div>

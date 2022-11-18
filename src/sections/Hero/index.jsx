@@ -172,7 +172,7 @@ const Hero = () => {
                             <li>Over 15,000+ cryptocurrencies supported.</li>
                             <li>Send and receive NFTs from your favorite marketplace. </li>
                             <li>Fiat-to-crypto transactions enabled.  </li>
-                            <li>Stake, supply, and borrow liquidity from an intuitive DEX all</li>
+                            <li>Stake, supply, and borrow liquidity from an intuitive DEX</li>
                         </ul>
                         {data && data.action &&
                         <ul className="list-unstyled d-flex gap-1 gap-lg-2">
