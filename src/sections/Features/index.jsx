@@ -27,7 +27,7 @@ const Features = () => {
             },
             content: {
                 heading: "Explore the Blithe Ecosystem",
-                body: "The Blithe Ecosystem presents many possibilities in DeFi, including",
+                body: "The Blithe Ecosystem presents many possibilities in Defi : Your Keys, Your Coins",
             },
             button: {
                 name: "Read More",

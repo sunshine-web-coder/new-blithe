@@ -167,7 +167,7 @@ const Hero = () => {
                             <div className="fw-light text-dark">Start Building a</div>
                             Solid Crypto Portfolio
                         </h1>
-                        <h6 className='fs-xl text-dark mb-4'>Manage and take control of your crypto assets in a non-custodial wallet.</h6>
+                        <h6 className='fs-xl text-dark mb-4'>World’s First non-custodial wallet to support NFC payment: manage and take control of your crypto assets.</h6>
                         <ul className="list-unstyled list-dot lh-xl mb-4 mb-lg-5">
                             <li>Over 15,000+ cryptocurrencies supported.</li>
                             <li>Send and receive NFTs from your favorite marketplace. </li>
