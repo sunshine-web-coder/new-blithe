@@ -13,7 +13,7 @@ const Team = () => {
             <div className="imgBox">
               <img src={img1} alt="" />
             </div>
-            <p>David Friedmann. CEO/COO</p>
+            <p>David Friedmann. COO</p>
             <div className="buttonF">
                 <a target="_blank" href="https://youtu.be/oCPBJwip8Aw">Doxx</a>
             </div>
