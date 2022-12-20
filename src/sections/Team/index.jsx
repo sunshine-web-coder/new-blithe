@@ -1,6 +1,7 @@
 import "./style.scss";
 import img1 from "../../assets/teams/David-Friedmann.jpg";
 import img2 from "../../assets/teams/Sami.jpg";
+import img3 from "../../assets/teams/emma.jpg";
 
 const Team = () => {
   return (
@@ -9,6 +10,15 @@ const Team = () => {
         <h2>Team</h2>
 
         <div className="TeamBox">
+          <div className="coTeamBox">
+            <div className="imgBox">
+              <img src={img3} alt="" />
+            </div>
+            <p>Emmanuel Nwogo. CEO</p>
+            <div className="buttonF">
+                <a target="_blank" href="https://t.me/nwogoemmanuel">Contact</a>
+            </div>
+          </div>
           <div className="coTeamBox">
             <div className="imgBox">
               <img src={img1} alt="" />
