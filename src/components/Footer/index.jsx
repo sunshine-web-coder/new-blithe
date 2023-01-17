@@ -155,7 +155,7 @@ const Footer = () => {
           )}
           <Col>
             <div className="fw-regular">
-              © 2022 Vince Chain Inc. All rights reserved.
+              © 2023 Vince Chain Inc. All rights reserved.
             </div>
           </Col>
         </Row>
