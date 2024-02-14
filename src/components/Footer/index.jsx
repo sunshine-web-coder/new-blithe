@@ -155,7 +155,7 @@ const Footer = () => {
           )}
           <Col>
             <div className="fw-regular">
-              © 2023 Solisq Inc. All rights reserved.
+              © 2024 Solisq Inc. All rights reserved.
             </div>
           </Col>
         </Row>
