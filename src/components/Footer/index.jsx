@@ -140,7 +140,7 @@ const Footer = () => {
 
       <Container>
         <Row className="gy-4 flex-md-row-reverse text-center text-md-start">
-          {data && data.social && (
+          {/* {data && data.social && (
             <Col md="auto">
               <ul className="list-inline mb-0 d-inline-flex flex-wrap gap-2 gap-lg-3">
                 {data.social.map((item, i) => (
@@ -152,7 +152,7 @@ const Footer = () => {
                 ))}
               </ul>
             </Col>
-          )}
+          )} */}
           <Col>
             <div className="fw-regular">
               © 2024 Solisq Inc. All rights reserved.
