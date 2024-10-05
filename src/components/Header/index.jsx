@@ -81,13 +81,13 @@ const Header = () => {
                     <FiMenu />
             </span>
             <Navbar.Collapse>
-                {/* {data && data.navmenu &&
+                {data && data.navmenu &&
                 <Nav className="me-auto">
-                    {data.navmenu.map((item, i) =>(
+                    {/* {data.navmenu.map((item, i) =>(
                         <Nav.Link key={i} href={item.slug}>{item.name} <span>{item.soonText}</span></Nav.Link>
-                    ))}
+                    ))} */}
                 </Nav>
-                } */}
+                }
             <Nav>
                 <Nav.Link className='p-0 d-block' target="_blank" href="https://t.me/blithewallet"><span className='btn btn-warning'>Join Us</span></Nav.Link>
             </Nav>
