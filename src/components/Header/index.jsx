@@ -89,8 +89,7 @@ const Header = () => {
                 </Nav>
                 }
             <Nav>
-                <Nav.Link className='p-0 d-block' target="_blank" href="https://t.me/blithewallet"><span className='btn btn-warning'>Join Us</span></Nav.Link>&nbsp;
-                <Nav.Link className='p-0 d-block' target="_blank" href="https://pancakeswap.finance/swap?outputCurrency=BNB&inputCurrency=0xe063a7d90732Db5B5BDFb92f6E17Fe805c655781"><span className='btn btn-warning'>Buy</span></Nav.Link>
+                <Nav.Link className='p-0 d-block' target="_blank" href="https://t.me/blithewallet"><span className='btn btn-warning'>Join Us</span></Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Container>
@@ -108,9 +107,6 @@ const Header = () => {
                 ))} */}
                 <a target="_blank" href="https://t.me/blithewallet">
                     <span className='btn btn-warning rounded-pill w-100'>Join Us</span>
-                </a>
-                <a target="_blank" href="https://pancakeswap.finance/swap?outputCurrency=BNB&inputCurrency=0xe063a7d90732Db5B5BDFb92f6E17Fe805c655781">
-                    <span className='btn btn-warning rounded-pill w-100'>Buy</span>
                 </a>
             </ul>
             }
